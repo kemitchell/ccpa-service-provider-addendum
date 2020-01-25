@@ -1,6 +1,6 @@
 ---
 title: CCPA Service Provider Addendum
-edition: Development Draft
+edition: First Edition
 
 signaturePages:
 - header: The parties are signing this addendum on the dates by their signatures.
