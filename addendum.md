@@ -18,6 +18,10 @@ signaturePages:
 
 Both sides agree to do their respective parts to comply with the California Consumer Privacy Act and its regulations, consistent with _Provider_'s role as a "service provider", and not as a "third party", under that law.
 
+# Cooperation
+
+Whenever it is feasible and legal to do so, each side will give the other prompt notice of user rights requests, regulatory inquiries, and other actions under the California Consumer Privacy Act according to the notice provisions of the _Agreement_.  Both sides agree to cooperate in good faith to respond to and honor consumer rights requests and to meet other obligations under the California Consumer Privacy Act.
+
 # Prohibitions
 
 _Provider_ may not:
