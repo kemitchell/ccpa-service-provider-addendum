@@ -20,7 +20,7 @@ Both sides agree to do their respective parts to comply with the California Cons
 
 # Cooperation
 
-Whenever it is feasible and legal to do so, each side will give the other prompt notice of user rights requests, regulatory inquiries, and other actions under the California Consumer Privacy Act according to the notice provisions of the _Agreement_.  Both sides agree to cooperate in good faith to respond to and honor consumer rights requests and to meet other obligations under the California Consumer Privacy Act.
+Whenever it is feasible and legal to do so, each side will give the other prompt notice of user rights requests, regulatory inquiries, and other communications under the California Consumer Privacy Act according to the notice provisions of the _Agreement_.  Both sides agree to cooperate in good faith to respond to and honor such communications, and to meet other obligations under the California Consumer Privacy Act.
 
 # Prohibitions
 
