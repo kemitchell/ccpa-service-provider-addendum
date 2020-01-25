@@ -14,7 +14,7 @@ signaturePages:
 
 **Provider** and **Customer** agree to add the following terms to their **Agreement**:
 
-# Service Provider
+# Compliance
 
 Both sides agree to do their respective parts to comply with the California Consumer Privacy Act and its regulations, consistent with _Provider_'s role as a "service provider", and not as a "third party", under that law.
 
