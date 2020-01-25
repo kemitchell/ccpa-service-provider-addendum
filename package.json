@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "devDependencies": {
+    "commonform-commonmark": "^5.3.0",
+    "commonform-docx": "^5.0.3",
+    "json": "^9.0.6"
+  }
+}

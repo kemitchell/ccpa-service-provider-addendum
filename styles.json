@@ -1,0 +1,17 @@
+{
+  "alignment": "left",
+  "beforeDefinition": null,
+  "afterDefinition": null,
+  "definition": {
+    "bold": true
+  },
+  "heading": {
+    "italic": true
+  },
+  "reference": {
+    "italic": true
+  },
+  "referenceHeading": {
+    "italic": true
+  }
+}
