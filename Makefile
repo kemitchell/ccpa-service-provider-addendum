@@ -28,7 +28,13 @@ build:
 $(CFCM):
 	npm ci
 
-.PHONY: clean
+.PHONY: clean docker
 
 clean:
 	rm -rf build
+
+docker:
+	docker build -t ccpa-addendum .
+	docker run --name ccpa-addendum ccpa-addendum
+	docker cp ccpa-addendum:/workdir/build .
+	docker rm ccpa-addendum
