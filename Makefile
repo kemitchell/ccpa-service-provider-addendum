@@ -7,8 +7,8 @@ all: build/addendum.docx build/addendum.pdf
 build/%.pdf: build/%.docx
 	unoconv $<
 
-build/%.docx: build/%.form.json build/%.signatures.json build/%.title styles.json | build $(CFDOCX)
-	$(CFDOCX) --title "$(shell cat build/$*.title)" --signatures build/$*.signatures.json build/$*.form.json --left-align-title --indent-margins --number outline --styles styles.json > $@
+build/%.docx: build/%.form.json build/%.signatures.json build/%.title build/%.edition styles.json | build $(CFDOCX)
+	$(CFDOCX) --title "$(shell cat build/$*.title)" --edition "$(shell cat build/$*.edition)" --signatures build/$*.signatures.json build/$*.form.json --left-align-title --indent-margins --number outline --styles styles.json > $@
 
 build/%.parsed.json: %.md | build $(CFCM)
 	$(CFCM) parse < $< > $@
@@ -21,6 +21,9 @@ build/%.signatures.json: build/%.parsed.json | $(JSON)
 
 build/%.title: build/%.parsed.json | $(JSON)
 	$(JSON) frontMatter.title < $< > $@
+
+build/%.edition: build/%.parsed.json | $(JSON)
+	$(JSON) frontMatter.edition < $< > $@
 
 build:
 	mkdir -p build
