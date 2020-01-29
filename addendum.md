@@ -47,4 +47,4 @@ _Provider_ agrees to ensure that each subcontractor that processes _Customer_ in
 
 # Conflicts
 
-If the terms of this addendum conflict with terms of the _Agreement_, the terms of this agreement take precedence.
+If the terms of this addendum conflict with terms of the _Agreement_, the terms of this addendum take precedence.
