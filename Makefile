@@ -28,7 +28,7 @@ build/%.edition: build/%.parsed.json | $(JSON)
 build:
 	mkdir -p build
 
-$(CFCM):
+$(CFCM) $(CFDOCX) $(JSON):
 	npm ci
 
 .PHONY: clean docker
